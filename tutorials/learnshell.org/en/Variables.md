@@ -1,7 +1,10 @@
 Tutorial
 --------
-Shell variables are created once they are assigned a value. A variable can contain a number, a character or a string of characters. Variable name is case sensitive and can consist of a combination of letters and the underscore "_". 
-Value assignment is done using the "=" sign. Note that no space permitted on either side of = sign when initializing variables.
+- Shell variables are created once they are assigned a value. 
+- A variable can contain a number, a character or a string of characters. 
+- Variable name is case sensitive and can consist of a combination of letters and the underscore "_". 
+
+- Value assignment is done using the "=" sign. Note that no space permitted on either side of = sign when initializing variables.
 
     PRICE_PER_APPLE=5
     MyFirstLetters=ABC
@@ -33,7 +36,13 @@ Note that when the script runs, it will run the command inside the $() parenthes
 
 Exercise
 --------
-The target of this exercise is to create a string, an integer, and a complex variable using command substitution. The string should be named BIRTHDATE and should contain the text "Jan 1, 2000". The integer should be named Presents and should contain the number 10. The complex variable should be named BIRTHDAY and should contain the full weekday name of the day matching the date in variable BIRTHDATE e.g. Saturday. Note that the 'date' command can be used to convert a date format into a different date format. For example, to convert date value, $date1, to day of the week of date1, use: 
+- The target of this exercise is to create a string, an integer, and a complex variable using command substitution. 
+- The string should be named BIRTHDATE and should contain the text "Jan 1, 2000". 
+- The integer should be named Presents and should contain the number 10. 
+- The complex variable should be named BIRTHDAY and should contain the full weekday name of the day 
+matching the date in variable BIRTHDATE e.g. Saturday. 
+- Note that the 'date' command can be used to convert a date format into a different date format. 
+- For example, to convert date value, $date1, to day of the week of date1, use: 
 
     date -d "$date1" +%A
 
